@@ -1,0 +1,18 @@
+1. git скачати і встановити
+2. далі перейти в термінал
+3. зробити налаштування
+
+    git config --global user.name "Your Name"
+    git config --global user.email "your_email@example.com"
+
+4. зареєструватись напр. на github
+5. 
+
+echo "# money_telegram_bot" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DimaSapsay/money_telegram_bot.git
+git push -u origin main
+
